@@ -1,3 +1,47 @@
 body {
-    background-color: red;
+    height: 90vh;
+    font-family: sans-serif;
+}
+
+body button, a, i {
+    cursor: pointer;
+}
+
+.container {
+    width: 40%;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    margin: auto;
+    text-align: justify;
+}
+
+header {
+    width: 100%;
+}
+
+.container main img {
+    width: 100%;
+}
+
+.menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a:hover {
+    background: rgb(0, 0, 0);
+    color:rgb(249, 249, 249);
 }
